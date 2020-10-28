@@ -1,0 +1,311 @@
+
+
+.bp{
+	  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 400px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+
+.bp:hover {
+  	  display: inline-block;
+  border-radius: 4px;
+  background-color: yellow;
+  border: none;
+  color: blue;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 400px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+
+
+.bb{
+	  display: inline-block;
+  border-radius: 4px;
+  background-color: #FAAB2B;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 400px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+
+.bb:hover {
+  	  
+    display: inline-block;
+  border-radius: 4px;
+  background-color: #FFF24C;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 400px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+
+
+.c1{
+
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	background: url(entrada.gif);
+	height: 500px;
+	width: 800px;
+	display: block;
+
+}
+.c12{
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	background: url(prin.gif);
+	height: 500px;
+	width: 800px;
+	display: block;
+}
+.c122{
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	background: url(fin.gif);
+	height: 500px;
+	width: 800px;
+	display: block;
+}
+.bo1{
+
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+	position: absolute;
+	left: 0px;
+	top: 120px;
+		height:70px;
+	width: 200px;
+	display: block;
+
+}
+.bo1:hover{
+	  border-radius: 4px;
+  background-color:yellow;
+  border: none;
+  color: blue;
+  text-align: center;
+  font-size: 28px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+	position: absolute;
+	left: 0px;
+	top: 120px;
+		height:70px;
+	width: 200px;
+	display: block;
+}
+
+
+.c2{
+
+	position: absolute;
+	left: 1200px;
+	top: 100px;
+	background: url(ent1.gif);
+	height: 500px;
+	width: 800px;
+	display: block;
+}
+.c22{
+	position: absolute;
+	left: 1200px;
+	top: 100px;
+	background: url(quie1.gif);
+	height: 500px;
+	width: 800px;
+	display: block;
+}
+.c222{
+	position: absolute;
+	left: 1200px;
+	top: 100px;
+	background: url(int1.gif);
+	height: 500px;
+	width: 800px;
+	display: block;
+}
+.bo2{
+
+	  border-radius: 4px;
+  background-color: #54EBED;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+	position: absolute;
+	left: 1680px;
+	top: 120px;
+		height:70px;
+	width: 200px;
+	display: block;
+
+}
+.bo2:hover{
+
+	  border-radius: 4px;
+  background-color: #8EC241;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+	position: absolute;
+	left: 1680px;
+	top: 120px;
+		height:70px;
+	width: 200px;
+	display: block;
+
+}
+
+
+
+.c3{
+
+	position: absolute;
+	left: 500px;
+	top: 600px;
+	background: url(ent2.gif);
+	height: 500px;
+	width: 800px;
+	display: block;
+}
+.c32{
+	position: absolute;
+	left: 500px;
+	top: 600px;
+	background: url(quie2.gif);
+	height: 500px;
+	width: 800px;
+	display: block;
+}
+.c322{
+	position: absolute;
+	left: 500px;
+	top: 600px;
+	background: url(int2.gif);
+	height: 500px;
+	width: 800px;
+	display: block;
+}
+.bo3{
+	  border-radius: 4px;
+  background-color:#C094FE;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+	display: block;
+	position: absolute;
+	left: 900px;
+	top: 600px;
+	height:60px;
+	width: 200px;
+	display: block;
+
+}
+.bo3:hover{
+	  border-radius: 4px;
+  background-color:#54A2ED;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+	display: block;
+	position: absolute;
+	left: 900px;
+	top: 600px;
+	height:60px;
+	width: 200px;
+	display: block;
+
+}
+
+.bot2{
+	  display: inline-block;
+  border-radius: 4px;
+  background-color: #FAAB2B;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 400px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  right: 400px
+
+}
+
+.bot2:hover {
+  	  
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #FFF24C;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 400px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  right: 400px
+
+}
+
+
+
+
+

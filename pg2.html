@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parcial2</title>
+	<link rel="stylesheet" type="text/css" href="estilo1.css">
+</head>
+<center>
+<form action="final.html" class="bot">
+<input type="submit" name="boton1" value="enviar" class="bot2">
+</form>
+</center>
+
+<body class="fondo">
+
+
+<div class="c1" id="ani1"></div>
+<button onclick="cambiar()" class="bo1" id="bo1" onmousedown="sonido.play()"> Accidente</button>
+<script >
+	var hola1=function(){
+		n=document.getElementById('ani1');
+		n.className='c1';
+		setTimeout(hola2,1000);
+
+	}
+	var hola2=function(){
+		n2=document.getElementById('ani1');
+		n2.className='c12';
+	}
+	setTimeout(hola1,2400);
+
+	var cambiar=function(){
+		n=document.getElementById('ani1');
+		n.className='c122';
+		setTimeout(hola2,4000);
+
+	}
+		var sonido = new Audio();
+		sonido.src="soni1.mp3";
+
+
+</script>
+
+
+<br><br><br><br><br>
+<div class="c2" id="ani2"></div>
+<button onclick="cambiar1()" class="bo2" id="bo2"  onmousedown="sonido1.play()"> Boom </button>
+<script >
+	var hola3=function(){
+		n=document.getElementById('ani2');
+		n.className='c2';
+		setTimeout(hola4,1000);
+
+	}
+	var hola4=function(){
+		n2=document.getElementById('ani2');
+		n2.className='c22';
+	}
+	setTimeout(hola3,1800);
+
+	var cambiar1=function(){
+		n=document.getElementById('ani2');
+		n.className='c222';
+		setTimeout(hola4,4000);
+
+	}
+	
+	var sonido1 = new Audio();
+	sonido1.src="soni21.mp3";
+
+
+
+</script>
+
+
+
+<br><br><br><br><br>
+<div class="c3" id="ani3"></div>
+<button onclick="cambiar2()" class="bo3" id="bo3" onmousedown="sonido2.play()"> Explora </button>
+<script >
+	var hola5=function(){
+		n=document.getElementById('ani3');
+		n.className='c3';
+		setTimeout(hola6,1000);
+
+	}
+	var hola6=function(){
+		n2=document.getElementById('ani3');
+		n2.className='c32';
+	}
+	setTimeout(hola5,2100);
+
+	var cambiar2=function(){
+		n=document.getElementById('ani3');
+		n.className='c322';
+		setTimeout(hola6,3400);
+
+	}
+	var sonido2 = new Audio();
+	sonido2.src="sonido3.mp3";
+</script>
+
+
+</body>
+
+</html>
+
+
